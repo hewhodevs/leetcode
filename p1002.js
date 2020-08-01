@@ -1,3 +1,5 @@
+// 1002. Find Common Characters
+
 /**
  * @param {string[]} A
  * @return {string[]}

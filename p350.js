@@ -1,3 +1,5 @@
+// 350. Intersection of Two Arrays II
+
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
