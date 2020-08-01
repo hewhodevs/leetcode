@@ -19,7 +19,9 @@ var intersect = function(nums1, nums2) {
     for (let i = 0; i < smallArr.length; i++) {
         const element = smallArr[i];
         if (largeArr.includes(element)) {
+            // add common element to the intersection array result
             intersection.push(element);
+            // remove the common element from the larger array
             largeArr.splice((largeArr.indexOf(element)),1);
         }
     }
